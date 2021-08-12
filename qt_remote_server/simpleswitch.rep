@@ -1,0 +1,5 @@
+class SimpleSwitch
+{
+    PROP(bool currState=false READPUSH);
+    SLOT(server_slot(bool clientState));
+};
